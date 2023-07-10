@@ -9,7 +9,6 @@ class Solution {
         StringBuilder builder = new StringBuilder();
         int len = s.length();
         int section1 = 2* (numRows -1);
-
         for(int i=0;i<numRows;i++)
         {
             int index = i ;
