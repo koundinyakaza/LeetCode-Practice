@@ -5,6 +5,7 @@ class Solution {
         {
             return s;
         }
+        
         StringBuilder builder = new StringBuilder();
         int len = s.length();
         int section1 = 2* (numRows -1);
